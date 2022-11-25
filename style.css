@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 10vh;
+    width: 100%;
+    padding:0 5vw ;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: MS Reference Sans Serif;
+    font-weight: 100;
+}
+#nav h3{
+    font-family: Vogue;
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+#nav button{
+    color: white;
+    padding: .7vw 2.8vw;
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    font-family: MS Reference Sans Serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+#nlft{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+
+}
+#nlft a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.07vw;
+}
+#pg1{
+    height:65vh;
+    width: 100%;
+    background-image: url(./60bdefb8537aabf18723227e_607e7ce583f9f030959cbb00_landing_page_BG-min\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 5vw;
+}
+#pg1 h1{
+    font-family: play;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+}
+#pg1 h4{
+    font-family:MS Reference Sans Serif;
+    font-weight: 400;
+    color: white;
+}
+#pg2{
+    background-color: rgb(235, 235, 235);
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#link{
+    height: 50vh;
+    width: 65vw;
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#search-bar{
+    padding: 30px;
+}
+
+
+#lk{
+    padding: 1.2vw;
+    width: 700px;
+    border-radius: 20px;
+
+    border: none;
+    background-color: rgb(237, 229, 229);
+    font-family: 'Gilroy Light';
+    font-size: 20px;
+}
+#pg2 form img{
+    padding: .95vw;
+    padding-left: 1.5vw;
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(222, 221, 221);
+}
+#sch{
+    padding: 1vw 1.5vw;
+    font-size: 22px;
+    margin-left: 1vw;
+    border: none;
+    color: white;
+    font-family: 'Gilroy Heavy';    
+    background-color: rgb(11, 148, 194);
+    border-radius: 10px;
+}
+#link{
+    height:auto;
+}
+#info-video{
+    display: none;      
+    width: 90%;
+    height:400px;
+    position: relative;
+    margin: 30px;
+    bottom: 30px;
+    border-radius: 20px;
+    
+       
+}
+#info-video>#yt-iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+}
+#download{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    background-color:rgb(87, 201, 87);
+    color:white;
+    border-radius: 30px;
+    border: none;
+}
+#pg3{
+    margin-top: 200px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vw;
+    background-color: rgb(235, 235, 235);
+}
+#pg3 h1{
+    font-family: 'Gilroy Heavy';
+    font-size: 60px;
+}
+#pg3 h3{
+    font-family: 'Gilroy Light';
+    color: rgb(92, 92, 92);
+
+}
+#pg3 #ctr3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+#ctr3 a{
+    width: 15%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    flex-direction: column;
+}
+.circle{
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+    background-color: rgb(3, 134, 160);
+}
+#ctr3 a h4{
+    text-align: center;
+    font-family: 'Gilroy Heavy';
+}
+#ctr3 a h5{
+    font-family: 'Gilroy Light';
+    text-align: center;
+}
+#pg3 button{
+    padding: 1.5vw;
+    font-family: 'Gilroy Heavy';
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(7, 123, 161);
+}
+
